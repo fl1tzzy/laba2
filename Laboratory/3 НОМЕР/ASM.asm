@@ -1,3 +1,6 @@
+format PE Console
+entry start
+
 include 'includes\win32a.inc' ; Включает файл с определениями для Win32 API
 
 section '.data' data readable writeable
